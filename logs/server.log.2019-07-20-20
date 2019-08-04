@@ -1,0 +1,15 @@
+[2019-07-20 21:01:56,661] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-20 21:01:56,663] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-20 21:01:56,663] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-20 21:04:41,322] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-20 21:40:30,217] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-20 21:40:30,218] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-20 21:40:30,218] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-20 21:45:59,685] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-20 21:55:59,690] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

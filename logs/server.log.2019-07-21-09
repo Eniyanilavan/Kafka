@@ -1,0 +1,70 @@
+[2019-07-21 10:07:10,326] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-21 10:12:28,288] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:12:28,289] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:12:28,289] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:12:40,417] WARN [LeaderEpochCache python-0] New epoch entry EpochEntry(epoch=2, startOffset=55) caused truncation of conflicting entries ListBuffer(EpochEntry(epoch=1, startOffset=55)). Cache now contains 2 entries. (kafka.server.epoch.LeaderEpochFileCache)
+[2019-07-21 10:13:04,298] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:13:04,298] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:13:04,299] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:13:44,672] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:13:44,672] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:13:44,673] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:13:46,114] WARN Attempting to send response via channel for which there is no open connection, connection id 127.0.0.1:9092-127.0.0.1:53868-112 (kafka.network.Processor)
+[2019-07-21 10:14:59,223] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:14:59,224] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:14:59,224] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:17:10,331] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-21 10:17:29,714] WARN Attempting to send response via channel for which there is no open connection, connection id 127.0.0.1:9092-127.0.0.1:54193-115 (kafka.network.Processor)
+[2019-07-21 10:17:49,576] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:17:49,577] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:17:49,577] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:27:10,338] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-21 10:37:10,343] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-21 10:45:53,809] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:45:53,810] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:45:53,810] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:49:07,319] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:49:07,320] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:49:07,320] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:51:14,387] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:51:14,388] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:51:14,388] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:52:11,958] WARN Attempting to send response via channel for which there is no open connection, connection id 127.0.0.1:9092-127.0.0.1:61701-126 (kafka.network.Processor)
+[2019-07-21 10:52:13,116] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:52:13,116] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:52:13,117] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:53:17,105] WARN Attempting to send response via channel for which there is no open connection, connection id 127.0.0.1:9092-127.0.0.1:61974-128 (kafka.network.Processor)
+[2019-07-21 10:53:18,549] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 10:53:18,550] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 10:53:18,550] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 10:53:22,979] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

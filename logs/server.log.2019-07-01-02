@@ -1,0 +1,9 @@
+[2019-07-01 09:26:01,514] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-01 09:28:28,256] INFO [Admin Manager on Broker 1]: Error processing create topic request for topic dcode_fileParse with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'dcode_fileParse' already exists.
+[2019-07-01 09:36:01,518] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-01 09:46:01,514] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-01 09:49:55,690] WARN Attempting to send response via channel for which there is no open connection, connection id 127.0.0.1:9093-127.0.0.1:65483-155 (kafka.network.Processor)
+[2019-07-01 09:49:55,818] INFO [Admin Manager on Broker 1]: Error processing create topic request for topic dcode_fileParse with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'dcode_fileParse' already exists.
+[2019-07-01 09:56:01,515] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

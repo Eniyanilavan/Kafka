@@ -1,0 +1,16 @@
+[2019-07-21 11:03:22,977] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-21 11:13:22,982] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-21 11:18:04,640] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 11:18:04,641] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 11:18:04,641] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 11:19:29,853] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic python with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'python' already exists.
+[2019-07-21 11:19:29,853] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic c with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'c' already exists.
+[2019-07-21 11:19:29,854] INFO [Admin Manager on Broker 0]: Error processing create topic request for topic java with arguments (numPartitions=2, replicationFactor=2, replicasAssignments={}, configs={}) (kafka.server.AdminManager)
+org.apache.kafka.common.errors.TopicExistsException: Topic 'java' already exists.
+[2019-07-21 11:23:22,988] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-07-21 11:33:22,998] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
